@@ -1,0 +1,11 @@
+commit 71f398301f843fa6c0cc64d9a5508211d72497d6
+Author: Riccardo Arena <riccardo.arena@metropolis.sci.univr.it>
+Date:   Tue Jun 23 18:25:29 2020 +0200
+
+    3DOM metallicRoughness fix, extensions and tests (#1307)
+    
+    * Fix 3dom's metallicRoughness texture not being serialized
+    
+    * Add 3dom api for metalness and roughness factors
+    
+    * Edited tests to include metallic and roughness factors
